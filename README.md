@@ -1,7 +1,9 @@
 # python-app-Library
 Digital library app using python
 
+STEPS:
 Clone the repo
+
 
 docker build -t dbimage database/ 
 
@@ -12,6 +14,7 @@ docker build -t bookimage book/
 docker build -t borrowimage borrow/ 
 
 docker build -t appimage . 
+
 
 
 docker network create mynet
